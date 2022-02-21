@@ -1,0 +1,203 @@
+.top{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 35vh;
+  padding-bottom:40px;
+  background-color:rgba(255,255,255,0.1);
+   margin:35vh 25vw;
+  border-radius:25px;
+   box-shadow:  0 4px 8px 0 rgba(0,0,0,0.3);
+
+
+}
+
+.top:hover {
+box-shadow:  0 8px 16px 0 rgba(0,0,0,0.5);
+
+}
+
+body{
+  background-image:url('https://preview.redd.it/et6dl38xhpg81.png?width=1024&format=png&auto=webp&s=4a567b5e4c20c3b3860cb9f273006ead46a7a2d8');
+  background-repeat:no-repeat;
+  background-size: 100% 100vh;
+
+}
+.sr {
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 15px;
+  padding: 8px;
+  width:25vw;
+  bottom: 10px;
+  position: relative;
+
+
+}
+::placeholder{
+color: aliceblue;
+font-weight: bolder;
+letter-spacing: 2px;
+font-family:  cursive;
+font-size: 1rem;
+opacity:80%;
+}
+input,textarea{
+color: ivory;
+letter-spacing:1px;
+font-family:cursive;
+text-transform:uppercase;
+
+}
+button{
+border-radius:50%;
+background-color:transparent;
+border:none;
+ position:relative;
+ transform:translate(6px,0px);
+ right: 50px;
+ bottom: 2px;
+
+
+}
+img{
+height:22px;
+cursor: pointer;
+}
+.search{
+display:flex;
+flex-wrap:nowrap;
+width:100%;
+align-items:center;
+justify-content:center;
+}
+
+h1{
+font-family:cursive;
+font-weight:bolder;
+color: #F5F5F5;
+opacity:78%;
+}
+
+footer{
+align-items: center;
+font-family:cursive;
+color: azure;
+position: absolute;
+bottom: 5%;
+left: 45%;
+ display: flex;
+justify-content: center;
+
+}
+footer a{
+text-decoration: none;
+color:powderblue;
+letter-spacing: 1px;
+}
+
+.result{
+margin-top:10vh !important;
+}
+
+.after{
+width: 90%;
+position:relative;
+color:ivory;
+font-family:cursive;
+padding: auto;
+}
+
+.after img{
+position:absolute;
+width:200px;
+height:200px;
+transform:translate(180%,-80%)
+}
+.after h3{
+transform:translate(35%,-200%);
+
+}
+.after h1{
+
+font-size:4.7rem;
+text-align:center;
+transform:translateY(-20%)
+
+}
+.after h4{
+font-size:1.3rem;
+transform:translate(15%,110%);
+}
+.after h2{
+transform:translate(15%,25%);
+font-size:2.2rem;
+}
+.khaby{
+display:flex;
+position:relative;
+}
+.khaby img{
+ width: 50%;
+ height:50%;
+transform:translate(40%,-10%)
+
+}
+.khaby h1{
+transform:translate(-50%,80%)
+}
+
+@media (max-width:520px){
+ *{
+  margin:0% !important;
+ }
+ .top{
+ 
+  width:80%;
+  margin-left:10% !important;
+ }
+.khaby img{
+ width:100%;
+ transform:translate(0,-10%);
+ 
+}
+.khaby h1{
+ position:absolute;
+ transform:translate(13%,450%);
+ 
+}
+.search{
+ transform:translate(0%,50%)
+}
+.search input{
+width:75%;
+transform:translate(10%);
+}
+.search button{
+transform:translate(75%);
+}
+
+.after img{
+width:40%;
+height:50%;
+transform:translate(150%,-50%);
+}
+.after h3{
+transform:translate(19%,50%)
+}
+.after h1{
+transform:translate(0%,20%);
+font-size:3.5rem;
+}
+.after h2{
+font-size:1.5rem;
+transform:translate(10%,75%)
+}
+.after h4{
+transform:translate(10%,130%);
+font-size:1rem;
+}
+footer{
+ left:30%;
+}
